@@ -1,0 +1,78 @@
+.navbar-menu .nav-link {
+    /*font-weight: 600;*/
+    padding: 0;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: Rubik, sans-serif;
+}
+table.table-hotel-dash tr:first-child td{
+	border: none;
+}
+table.table-hotel-dash tr:first-child td a{
+	background: none;
+	color: #000;
+}
+table.table-hotel-dash td:first-child{
+	background: #fff;
+	color: #001737;
+	font-weight: normal;
+	width: 150px;
+	max-width: 160px;
+
+}
+table.table-hotel-dash td{	
+	text-align: center;
+	font-family: Rubik, sans-serif;
+	color: #fff;
+	padding: 6px 0;
+	border: none;
+}
+table.table-hotel-dash td a{
+	font-family: Rubik, sans-serif;
+	color: #fff;
+	background: #2ECC71;
+	padding:7px;
+}
+table.table-hotel-dash td.stay-over a{
+	background: #e74c3c;
+}
+table.table-hotel-dash td.booked a{
+	background: #3498db;
+}
+ul.color-codes {
+    text-align: right;
+}
+ul.color-codes li {
+    display: inline;
+    padding: 0 5px;
+}
+ul.color-codes li i {
+    font-size: 20px;
+}
+.tx-underline{
+	text-decoration: underline;
+}
+.ui-datepicker {
+    z-index: 1060 !important;
+}
+.gallery-item {
+    width: 33%;
+    min-height: 175px;
+    float: left;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+.gallery-item img {
+    max-width: 100%;
+}
+.gallery-item .delete{
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	display: none;
+}
+.gallery-item:hover .delete{
+	display: block;
+}
