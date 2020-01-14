@@ -1,5 +1,6 @@
 <template>
     <NewRoomType v-if="accountSection == 'rooms'" />
+    <new-coupon  v-else-if="accountSection == 'coupons'" />
     
 </template>
 
@@ -7,6 +8,8 @@
 
 import store from "../../store.js";
 import NewRoomType from "../modals/NewRoomType.vue";
+import NewCoupon from "../modals/NewCoupon.vue";
+
 
 export default {
     name: "AccountModals",
@@ -16,7 +19,8 @@ export default {
         }
     },
     components: {
-       NewRoomType
+       NewRoomType,
+       NewCoupon
     }
 }
 </script>

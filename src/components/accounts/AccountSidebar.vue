@@ -26,7 +26,16 @@
                         <span class="step-icon"><i data-feather="lock"></i></span>
                         <div>
                             <span class="step-title">Room Types</span>
-                            <span class="step-desc">Add and edit new oom types</span>
+                            <span class="step-desc">Add and edit new room types</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="step-item">
+                    <a href="password.html" class="step-link" @click.prevent="() => setAccountSection('coupons')">
+                        <span class="step-icon"><i data-feather="lock"></i></span>
+                        <div>
+                            <span class="step-title">Coupons</span>
+                            <span class="step-desc">Add and edit new coupons</span>
                         </div>
                     </a>
                 </li>

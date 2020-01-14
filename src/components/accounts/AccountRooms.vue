@@ -4,7 +4,9 @@
             <div class="col-md-9"></div>
             <div class="col-md-3">
                 <div class="d-none d-md-block">
-                    <button class="btn btn-sm pd-x-15 btn-primary btn-uppercase" data-toggle="modal" data-target="#new-room"><i data-feather="plus-circle"></i> Add New Room Type</button>
+                    <button class="btn btn-sm pd-x-15 btn-primary btn-uppercase" 
+                    data-toggle="modal" data-target="#new-room">
+                    <i data-feather="plus-circle"></i> Add New Room Type</button>
                 </div>
             </div>
         </div>
@@ -39,7 +41,6 @@
                             </td>
                         </tr>
                         
-                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -52,7 +53,7 @@ import store from "../../store.js";
 import firebase from "firebase";
 
 export default {
-    name: "AccountSidebar",
+    name: "AccountRooms",
     data(){
         return {
             roomTypes:[]
